@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main {
+            background-image: url(media/new_new.jpg);
+            padding: 150px 0;
+            height: 729px;
+        }
+
+        .log_in {
+            background-color: rgba(211, 211, 211, 0.322);
+            width: 350px;
+            height: 400px;
+            margin: auto;
+            border-radius: 10px;
+
+        }
+        p{
+            text-align: center;
+            padding: 20px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        input[type="text"]{
+            background-color: rgba(211, 211, 211, 0.17); 
+            border: none;
+            height: 50px;
+            margin: 20px;
+            width: 90%;
+            border-radius: 5px;
+        }
+        input[type="password"]{
+            background-color: rgba(211, 211, 211, 0.17); 
+            border: none;
+            height: 50px;
+            margin: 20px;
+            width: 90%;
+            border-radius: 5px;
+        }
+        .bu{
+            margin:5px 0;
+        }
+        .chec{
+            position: relative;
+            left: 20px;
+        }
+        button{
+            height: 50px;
+            margin: 20px;
+            width: 90%;
+            background-color: green;
+            color: white;
+            border: none;
+            font-size: 20px;
+        }
+        a{
+            position: relative;
+            left:110px;
+            color: blue;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        input[type="text"]::placeholder{
+        padding: 20px 10px;
+        background-color: rgba(211, 211, 211, 0.17);  
+        border-radius: 5px;   
+        color: darkgray;   
+        font-size: 15px;  
+        }
+        input[type="password"]::placeholder{
+        padding: 20px 10px;
+        background-color: rgba(211, 211, 211, 0.17);     
+        border-radius: 5px;   
+        color: darkgray; 
+        font-size: 15px;  
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="log_in">
+            <div class="he">
+                <p>Account Login</p>
+            </div>
+            <div class="in">
+                <div><input type="text" placeholder="User Name"></div>
+                <div><input type="password" placeholder="Password"></div>
+            </div>
+            <div class="bu">
+                <button>LOGIN</button>  
+                <span class="chec">              
+                <input type="checkbox"> remember me</span>
+                <a href="#">Forget Password?</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
